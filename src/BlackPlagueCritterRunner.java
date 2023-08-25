@@ -20,9 +20,9 @@ public class BlackPlagueCritterRunner
 		red.setColor(Color.RED);
 		world.add(new Location(0,3), new Actor());
 		world.add(new Location(2,0), red);
-		world.add(new Location(3,0), new Rock(Color.CYAN));
+	    world.add(new Location(2,1), new Flower(Color.RED));
         world.add(new Location(1,0), new Rock(Color.ORANGE));
-		world.add(new Location(6,2), new Bug(Color.YELLOW));
+		world.add(new Location(6,2), new Bug(Color.RED));
 		
 		world.show(); 
 	}
